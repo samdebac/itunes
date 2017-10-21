@@ -7,8 +7,14 @@
    GLOBAL STYLES
    ============================================== */
 
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(styles/fonts/BebasNeue.otf);
+}
+
+
 .topbar{
-    background-color: #FF5959;
+    background-color: #F8F8F8;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -16,8 +22,98 @@
     margin-top: 15px;
 }
 
+body {
+    background-color: #1C222C !important;
+    
+}
 
 
+.tabel{
+    background-color: #262F3A !important;
+    color: #BFC1C0 !important;
+    min-height: 638px;
+    font-family: BebasNeue;
+   
+    
+}
+
+.landing {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
+
+.landing > img{
+    width: 100%;
+    position: relative;
+}
+
+.landing_text > h1 {
+  color: #F8F8F8;
+  font-size: 25pt;
+  margin-bottom: 25px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    font-family: BebasNeue;
+}
+
+article {
+    color: #F8F8F8;
+    margin-top: 10%;
+    font-family: BebasNeue;
+}
+.titel{
+    color: #C6C6C7;
+    font-family: BebasNeue;
+}
+.info{
+    min-height:322px;
+    max-height: 322px;
+}
+.cover{
+    margin-top: 10%;
+}
+table td, table th{
+    border-top: 1px solid #5CA4A6 !important;
+}
+
+.cover  {
+	-webkit-box-shadow: 0 12px 8px -6px #101419;
+	   -moz-box-shadow: 0 12px 8px -6px #101419;
+	        box-shadow: 0 12px 8px -6px #101419;
+}
+.tabel{
+  -moz-box-shadow:    3px 3px 3px 1px #101419;
+  -webkit-box-shadow: 3px 3px 3px 1px #101419;
+  box-shadow:         3px 3px 3px 1px #101419;
+}
+
+.btn-primary {
+    background-color: #76CDD1 !important;
+    color: #C6C6C7;
+    border: none !important;
+    min-width: 100% !important;
+
+}
+
+.footer{
+    background-color: #273039;
+    margin-top: 90px;
+    
+    
+}
+.txt-footer{
+    color: #C6C6C7;
+    margin-right: 15px;
+    font-family: BebasNeue;
+}
+.logo-footer{
+     margin-left: 15px;
+}
 
 /* MEDIA QUERIES
 *********************************************/
